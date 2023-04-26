@@ -18,7 +18,10 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
-    min-height: 100vh;
+
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
   }
 }
 
@@ -27,24 +30,11 @@
     @apply transition-colors delay-75 ease-linear hover:bg-gray-200 py-1 px-2 rounded-xl text-gray-700;
   }
   .navblur {
-    background: rgba(217, 217, 217, 0.66);
-    backdrop-filter: blur(17.5px);
+    background: rgba(217, 217, 217, 0.4);
+    backdrop-filter: blur(20px);
   }
 
   .smooth-trasnsition {
     transition: all 1s ease-in-out;
   }
-}
-
-body {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-
-  min-height: 100vh;
-  max-height: max-content;
-  width: 100vw;
 }
