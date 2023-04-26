@@ -7,39 +7,41 @@ const Navbar = () => {
       id="NavBar"
       className="w-100vw flex justify-center items-center top-0 navblur smooth-trasnsition sticky"
     >
-      <div className="w-80p  2xl:w-60vw flex justify-between  py-8 md:py-10 md:px-10 px-4">
-        <div>
-          <h1 className="font-lg">
-            I&apos;m <span className="font-bold">nani</span>
-          </h1>
-        </div>
+      {!showModal && (
+        <div className="w-80p  2xl:w-60vw flex justify-between  py-8 md:py-10 md:px-10 px-4">
+          <div>
+            <h1 className="font-lg">
+              I&apos;m <span className="font-bold">nani</span>
+            </h1>
+          </div>
 
-        <div className=" md:flex hidden gap-10">
-          <a className="nav-element" href="#home">
-            Home
-          </a>
-          <a className="nav-element" href="#work">
-            Work
-          </a>
-          <a className="nav-element" href="#about">
-            About
-          </a>
-          <a className="nav-element" href="#contact">
-            Contact
-          </a>
+          <div className=" md:flex hidden gap-10">
+            <a className="nav-element" href="#home">
+              Home
+            </a>
+            <a className="nav-element" href="#work">
+              Work
+            </a>
+            <a className="nav-element" href="#about">
+              About
+            </a>
+            <a className="nav-element" href="#contact">
+              Contact
+            </a>
+          </div>
+          <div className="block md:hidden">
+            <span
+              onClick={() => setShowModal(true)}
+              className="material-symbols-outlined"
+            >
+              menu
+            </span>
+          </div>
         </div>
-        <div className="block md:hidden">
-          <span
-            onClick={() => setShowModal(true)}
-            className="material-symbols-outlined"
-          >
-            menu
-          </span>
-        </div>
-      </div>
+      )}
       {/* mobile modal */}
       {showModal && (
-        <div className=" flex flex-col justify-center  navblur md:hidden absolute h-100vh w-100vw top-0 left-0">
+        <div className=" flex flex-col justify-center  navmobileblur md:hidden  absolute h-100vh w-100vw top-0 left-0">
           <div className="w-full flex justify-end">
             <span
               onClick={() => setShowModal(false)}
