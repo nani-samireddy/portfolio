@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div
       id="NavBar"
-      className="w-100vw flex justify-center items-center top-0 navblur smooth-trasnsition sticky"
+      className="w-100vw flex justify-center items-center relative navblur smooth-trasnsition "
     >
       {!showModal && (
         <div className="w-80p  2xl:w-60vw flex justify-between  py-8 md:py-10 md:px-10 px-4">
