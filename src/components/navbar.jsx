@@ -16,14 +16,11 @@ const Navbar = () => {
           </div>
 
           <div className=" md:flex hidden gap-10">
-            <a className="nav-element" href="#home">
-              Home
+            <a className="nav-element" href="#about">
+              About
             </a>
             <a className="nav-element" href="#work">
               Work
-            </a>
-            <a className="nav-element" href="#about">
-              About
             </a>
             <a className="nav-element" href="#contact">
               Contact
@@ -51,10 +48,15 @@ const Navbar = () => {
             </span>
           </div>
           <div className="text-2xl h-full font-bold flex flex-col justify-center items-center gap-10">
-            <a href="#home">Home</a>
-            <a href="#work">Work</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="#about" onClick={() => setShowModal(false)}>
+              About
+            </a>
+            <a onClick={() => setShowModal(false)} href="#work">
+              Work
+            </a>
+            <a onClick={() => setShowModal(false)} href="#contact">
+              Contact
+            </a>
           </div>
         </div>
       )}
