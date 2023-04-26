@@ -35,6 +35,6 @@
   }
 
   .smooth-trasnsition {
-    transition: all 1s ease-in-out;
+    transition: all 0.9s ease-in-out;
   }
 }
