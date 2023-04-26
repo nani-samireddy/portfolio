@@ -3,7 +3,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [showModal, setShowModal] = useState(false);
   return (
-    <div className="w-100vw flex justify-center items-center  smooth-trasnsition sticky">
+    <div id="NavBar" className="w-100vw flex justify-center items-center top-0 navblur smooth-trasnsition sticky">
       <div className="w-80p  2xl:w-60vw flex justify-between  py-8 md:py-10 md:px-10 px-4">
         <div>
           <h1 className="font-lg">
