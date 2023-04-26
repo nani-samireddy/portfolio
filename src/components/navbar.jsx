@@ -45,7 +45,7 @@ const Navbar = () => {
               close
             </span>
           </div>
-          <div className="text-2xl h-full font-bold flex flex-col justify-center items-center gap-8">
+          <div className="text-2xl h-full font-bold flex flex-col justify-center items-center gap-10">
             <a href="#home">Home</a>
             <a href="#work">Work</a>
             <a href="#about">About</a>
