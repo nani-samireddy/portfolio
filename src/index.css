@@ -40,4 +40,8 @@
   .smooth-trasnsition {
     transition: all 0.9s ease-in-out;
   }
+
+  .heading {
+    @apply text-3xl font-extrabold;
+  }
 }
