@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <MakeCenter>
       <h1 className="heading">I'm Confient in</h1>
-      <div className="flex gap-5 flex-wrap">
+      <div className="flex gap-5 flex-wrap justify-center items-center">
         {techData.map((tech) => {
           return <TechChip key={tech.name} tech={tech} />;
         })}
