@@ -69,7 +69,7 @@ export const techData = [
   },
   {
     name: "C",
-    image: "https://cdn.worldvectorlogo.com/logos/c-2975.svg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/35/The_C_Programming_Language_logo.svg",
   },
   {
     name: "Java",
