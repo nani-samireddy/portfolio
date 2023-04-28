@@ -17,14 +17,15 @@ const FullCard = ({ project }) => {
       </div>
       <p className="p-4">{project.description}</p>
       <div className="p-4 flex flex-wrap gap-3">
-        {project.techUsed.map((tech) => {
-          return (
-            <TechChip
-              key={tech}
-              tech={techData.filter((td) => td.name == tech)[0]}
-            />
-          );
-        })}
+        {project.techUsed &&
+          project.techUsed.map((tech) => {
+            return (
+              <TechChip
+                key={tech}
+                tech={techData.filter((td) => td.name == tech)[0]}
+              />
+            );
+          })}
       </div>
       <div className=" py-4 md:hidden flex justify-center items-center">
         <a

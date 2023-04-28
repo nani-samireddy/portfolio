@@ -4,7 +4,7 @@ const Contact = () => {
     <div id="contact">
       <MakeCenter>
         <h1 className="text-3xl lg:text-5xl font-extrabold pt-20 pb-5">
-          Let's Connect
+          Let&apos;s Connect
         </h1>
         <a href="mailto:nanisamireddy05@gmail.com">
           {" "}
@@ -15,7 +15,7 @@ const Contact = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://linkedin.com/in/nani-samireddy"
+            href="https://dicord.com/users/ghosttown#6333"
           >
             <svg
               width="48"
