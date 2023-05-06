@@ -34,7 +34,7 @@ const FullCard = ({ project }) => {
           className=" smooth-trasnsition font-bold text-blue-700 text-2xl"
           href={project.link}
         >
-          Visit
+          Visit ↗
         </a>
       </div>
     </div>
