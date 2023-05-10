@@ -15,7 +15,7 @@ const Contact = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://dicord.com/users/ghosttown#6333"
+            href="https://discord.com/users/ghosttown#6333"
           >
             <svg
               width="48"
