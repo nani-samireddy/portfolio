@@ -14,7 +14,7 @@
     scroll-behavior: smooth;
   }
   #root {
-    background: linear-gradient(180deg, #ffffff 0%, #aeabab 100%);
+    background: linear-gradient(180deg, #ffffff 10%, #aeabab 100%);
     background-repeat: no-repeat;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
