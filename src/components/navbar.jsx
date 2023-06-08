@@ -25,7 +25,7 @@ const Navbar = () => {
             <a className="nav-element" href="#initiatives">
               Initiatives
             </a>
-            <a className="nav-element" target="_blank" href="https://nanisamireddy.hashnode.dev/">
+            <a className="nav-element" target="_blank" href="https://blog.nanisamireddy.dev">
               Blog
             </a>
             <a className="nav-element" href="#contact">
@@ -63,7 +63,7 @@ const Navbar = () => {
             <a onClick={() => setShowModal(false)} href="#initiatives">
               Initiatives
             </a>
-            <a onClick={() => setShowModal(false)} href="https://nanisamireddy.hashnode.dev/" target="_blank" >
+            <a onClick={() => setShowModal(false)} href="https://blog.nanisamireddy.dev" target="_blank" >
               Blog
             </a>
             <a onClick={() => setShowModal(false)} href="#contact">

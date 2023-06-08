@@ -10,7 +10,7 @@ export const projectData = [
         id: 2,
         title: 'Development Lead | OYOLAVALLEY',
         description: 'Lead the completed design and development of the website for oyolavally.com which is a travel and tourism company',
-        link: 'https://oyolavally.com/',
+        link: 'https://oyola.in/',
         techUsed: ['Javascript', 'HTML', 'CSS', 'Firebase', 'Git', 'Github'],
     },
 ];
