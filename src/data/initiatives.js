@@ -10,7 +10,7 @@ export const initiativesData = [
         id: 1,
         title: 'MD Editor',
         description: 'An Online MarkDown editor that enables users to Edit and preview the Markdown code.',
-        link: 'https://instagram.com/thecodeslate',
+        link: 'https://markdown.nanisamireddy.dev',
         techUsed: ['ReactJs', 'TailwindCSS', 'Git', 'Github', 'Figma'],
 
 
