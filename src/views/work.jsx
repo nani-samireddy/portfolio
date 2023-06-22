@@ -1,14 +1,14 @@
 import FullCard from "../components/cards/full-card";
 import MakeCenter from "../components/make-center";
 import { projectData } from "../data/project-data";
-
+import { data } from "../data/data";
 const Work = () => {
   return (
     <div id="work">
       <MakeCenter>
         <h1 className="heading">Recent Works</h1>
         <div className="flex flex-col gap-10">
-          {projectData.map((project) => (
+          {data.workExperience.map((project) => (
             <>
               <FullCard project={project} />{" "}
             </>
