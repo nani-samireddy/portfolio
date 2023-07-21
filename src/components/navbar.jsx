@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <div
       id="NavBar"
-      className="w-100vw flex justify-center items-center relative  smooth-trasnsition "
+      className="w-100vw flex justify-center items-center relative  smooth-trasnsition  "
     >
       {!showModal && (
-        <div className="w-80p  2xl:w-60vw flex justify-between  py-8 md:py-10 md:px-10 px-4">
+        <div className="w-80p  2xl:w-60vw flex justify-between  py-8 md:py-10 md:px-10 px-4 ">
           <div>
             <h1 className="font-lg">
               I&apos;m <span className="font-bold">nani</span>
